@@ -1,10 +1,12 @@
 Details of the procedure
+
 Here is a detailed description of our procedure:
 In concrete terms, the script will use the three-dimensional file in its .wrl form and import it into ArcGis, which transforms it into an .shp file and is then able to consider it in its environment. On this basis, it measures a series of data to create raster and shapefile files, following a defined procedure.
 In ArcGis, we insert the script, which will use the documents stored in a folder on the computer's desktop, called Paleospeleology, to carry out its operations.
 The results are organised in a folder into a series of subfolders. These are made up of several elements: 
 1) Temporary results files, used to perform the calculations required for other files
 2) Final results files, whose data will subsequently be interpreted and integrated into the statistics. 
+
 It is necessary to apply the script to each motif one by one, naming the shapefile of the graphic unit analysed ‘GU’. 
 It should be pointed out that the results are sent to the same folder in the Office and then need to be moved when it's time to analyse another pattern, because the script application will systematically send its results to the same location.
 Files needed to run the script
